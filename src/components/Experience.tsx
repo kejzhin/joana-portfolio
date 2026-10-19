@@ -162,7 +162,7 @@ export default function Experience() {
   const { ref: headerRef, isInView: headerInView } = useInView({ threshold: 0.1 });
 
   return (
-    <section id="experience" className="py-24 sm:py-32 bg-[#FAF5F1] border-b border-[#E1D3CA]/60 relative overflow-hidden">
+    <section id="experience" className="py-24 sm:py-32 bg-[#F5E6E6] border-t border-[#E1D3CA]/60 relative overflow-hidden">
       <div className="absolute top-20 right-8 sm:right-20 pointer-events-none z-0 opacity-70 hidden sm:block">
       </div>
       <div className="absolute top-1/2 left-4 sm:left-10 pointer-events-none z-0 opacity-75">

@@ -138,7 +138,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-24 sm:py-32 bg-[#FAF5F1] relative overflow-hidden">
+    <section id="skills" className="py-24 sm:py-32 bg-[#F5E6E6] border-t border-[#E1D3CA]/60 relative overflow-hidden">
       {/* 3D Floating Decorative Ambient Objects */}
       <div className="absolute top-16 right-8 sm:right-24 pointer-events-none z-0 opacity-70 hidden sm:block">
         <Floating3DCube size={44} />

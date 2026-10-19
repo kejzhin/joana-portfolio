@@ -36,8 +36,8 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
     <header
       className={`sticky top-0 z-40 w-full transition-all duration-200 ${
         isScrolled
-          ? 'bg-[#FAF5F1]/95 backdrop-blur-md border-b border-[#E1D3CA] shadow-xs'
-          : 'bg-[#FAF5F1] border-b border-transparent'
+          ? 'bg-[#F5E6E6]/95 backdrop-blur-md border-b border-[#E1D3CA] shadow-xs'
+          : 'bg-[#F5E6E6] border-b border-transparent'
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 sm:px-8 py-3 sm:py-5 flex items-center justify-center relative">
@@ -91,7 +91,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
 
       {/* Mobile menu dropdown */}
       {mobileMenuOpen && (
-        <div className="md:hidden bg-[#FAF5F1] border-b border-[#E1D3CA] px-6 py-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-150">
+        <div className="md:hidden bg-[#F5E6E6] border-b border-[#E1D3CA] px-6 py-4 space-y-3 animate-in fade-in slide-in-from-top-2 duration-150">
           {navItems.map((item) => {
             const isActive = activeSection === item.id;
             return (

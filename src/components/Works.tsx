@@ -12,7 +12,7 @@ export default function Works({ onContactClick }: WorksProps) {
   const { ref: cardsRef, isInView: cardsInView } = useInView({ threshold: 0.15 });
 
   return (
-    <section id="works" className="py-24 bg-gradient-to-b from-[#FAF5F1] to-[#F5E6E6] border-t border-[#E1D3CA]/80 relative overflow-hidden">
+    <section id="works" className="py-24 bg-[#F5E6E6] border-t border-[#E1D3CA]/80 relative overflow-hidden">
       {/* 3D Floating Decorative Ambient Objects */}
       <div className="absolute top-12 right-12 pointer-events-none z-0 opacity-70 hidden sm:block">
         <Floating3DDiamond size={36} />
@@ -33,7 +33,7 @@ export default function Works({ onContactClick }: WorksProps) {
               : 'opacity-0 translate-y-6 blur-xs'
           }`}
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FAF5F1] border border-[#E1D3CA] text-xs font-semibold tracking-wider uppercase text-[#C4737C] mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/80 border border-[#E1D3CA] text-xs font-semibold tracking-wider uppercase text-[#C4737C] mb-3">
             <MessageSquareHeart className="w-3.5 h-3.5 text-[#C4737C]" />
             <span>Client Testimonials & Feedback</span>
           </div>
@@ -50,7 +50,7 @@ export default function Works({ onContactClick }: WorksProps) {
           {testimonialsData.map((t, idx) => (
             <div
               key={t.id}
-              className={`p-7 bg-[#FAF5F1] rounded-2xl border border-[#E1D3CA] flex flex-col justify-between space-y-6 hover:border-[#C4737C]/60 hover:shadow-md hover:-translate-y-1.5 transition-all duration-700 ease-out group transform ${
+              className={`p-7 bg-white/80 rounded-2xl border border-[#E1D3CA] flex flex-col justify-between space-y-6 hover:border-[#C4737C]/60 hover:shadow-md hover:-translate-y-1.5 transition-all duration-700 ease-out group transform ${
                 cardsInView
                   ? 'opacity-100 translate-y-0'
                   : 'opacity-0 translate-y-10'
@@ -81,7 +81,7 @@ export default function Works({ onContactClick }: WorksProps) {
 
         {/* Bottom Callout with Scroll Reveal */}
         <div
-          className={`mt-16 p-8 sm:p-10 bg-[#FAF5F1] rounded-2xl border border-[#E1D3CA] flex flex-col sm:flex-row items-center justify-between gap-6 transition-all duration-800 ease-out transform ${
+          className={`mt-16 p-8 sm:p-10 bg-white/80 rounded-2xl border border-[#E1D3CA] flex flex-col sm:flex-row items-center justify-between gap-6 transition-all duration-800 ease-out transform ${
             cardsInView
               ? 'opacity-100 translate-y-0'
               : 'opacity-0 translate-y-8'

@@ -65,7 +65,7 @@ export default function About() {
     <section
       id="about"
       ref={sectionRef}
-      className="py-24 sm:py-32 bg-gradient-to-b from-[#FAF5F1] to-[#F5E6E6] border-t border-[#E1D3CA]/60 relative overflow-hidden"
+      className="py-24 sm:py-32 bg-[#F5E6E6] border-t border-[#E1D3CA]/60 relative overflow-hidden"
     >
       {/* 3D Floating Decorative Ambient Objects */}
       <div className="absolute top-16 right-6 sm:right-16 pointer-events-none z-0 opacity-70 hidden sm:block">
@@ -212,7 +212,7 @@ export default function About() {
               return (
                 <div
                   key={pillar.num}
-                  className={`p-8 bg-[#FAF5F1]/60 hover:bg-white rounded-2xl border border-[#E1D3CA]/70 hover:border-[#C4737C] hover:shadow-lg transition-all duration-500 ease-out flex flex-col justify-between space-y-6 group transform ${
+                  className={`p-8 bg-white/80 hover:bg-white rounded-2xl border border-[#E1D3CA]/70 hover:border-[#C4737C] hover:shadow-lg transition-all duration-500 ease-out flex flex-col justify-between space-y-6 group transform ${
                     capabilitiesInView
                       ? 'opacity-100 translate-y-0'
                       : 'opacity-0 translate-y-10'

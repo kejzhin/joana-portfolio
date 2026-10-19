@@ -132,7 +132,7 @@ export default function Hero({ onContactClick }: HeroProps) {
   const shadowY = isHovered ? mousePos.y * -30 + 20 : 20;
 
   return (
-    <section id="home" className="relative pt-6 pb-16 md:pt-12 md:pb-24 overflow-hidden bg-gradient-to-b from-[#FAF5F1] to-[#F5E6E6]">
+    <section id="home" className="relative pt-6 pb-16 md:pt-12 md:pb-24 overflow-hidden bg-[#F5E6E6]">
       {/* 3D Floating Decorative Ambient Objects */}
       <div className="absolute top-10 left-6 sm:left-14 pointer-events-none z-0 opacity-70 hidden sm:block">
         <Floating3DDiamond size={36} />

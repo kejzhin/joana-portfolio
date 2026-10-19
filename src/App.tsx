@@ -53,7 +53,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF5F1] text-[#2B1D20] flex flex-col font-sans selection:bg-[#E1D3CA] selection:text-[#2B1D20] relative">
+    <div className="min-h-screen bg-[#F5E6E6] text-[#2B1D20] flex flex-col font-sans selection:bg-[#E1D3CA] selection:text-[#2B1D20] relative">
       <ScrollProgress />
       <Navbar activeSection={activeSection} onNavigate={handleNavigate} />
       <main className="flex-1">

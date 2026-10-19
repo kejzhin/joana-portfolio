@@ -11,7 +11,7 @@ export default function Footer({ onNavigate }: FooterProps) {
   };
 
   return (
-    <footer className="bg-gradient-to-b from-[#FAF5F1] to-[#F5E6E6] border-t border-[#E1D3CA] py-12 relative overflow-hidden">
+    <footer className="bg-[#F5E6E6] border-t border-[#E1D3CA] py-12 relative overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 sm:px-8 relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
 

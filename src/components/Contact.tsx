@@ -18,7 +18,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-gradient-to-b from-[#FAF5F1] to-[#F5E6E6] border-t border-[#E1D3CA] relative overflow-hidden">
+    <section id="contact" className="py-24 bg-[#F5E6E6] border-t border-[#E1D3CA] relative overflow-hidden">
       {/* 3D Floating Decorative Ambient Objects */}
       <div className="absolute top-14 left-8 sm:left-20 pointer-events-none z-0 opacity-70 hidden sm:block">
         <Floating3DCube size={42} />
